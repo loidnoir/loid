@@ -6,10 +6,10 @@ const SkillsBox: FC = () => {
     description: ['Messy language', 'Have a rude brother', 'Big decimal']
   }
 
-  const text = "text-4xl font-semibold font-inter rounded text-white-500 bg-gray-500 border-gray-500 p-1 uppercase"
+  const text = "text-4xl font-bold font-inter rounded text-white-500 bg-gray-500 border-gray-500 p-1 uppercase"
 
   return(
-    <div className='flex gap-5 justify-between mx-[8rem]'>
+    <div className='flex items-center flex-col gap-5 lg:flex-row lg:justify-center lg:gap-20'>
       <div>
         <h1 className={text}>JavaScript</h1>
         <p>Messy language</p>
